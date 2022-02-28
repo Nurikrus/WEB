@@ -1,0 +1,27 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  color: #af3a3a;
+}
+
+#galary {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: (1fr)[3];
+      grid-template-rows: repeat(3, 1fr);
+}
+
+.galary-item {
+  width: 30vw;
+  height: 50vh;
+}
+
+.galary-img, .galary-video, .galary-audio {
+  max-width: 100%;
+}
+/*# sourceMappingURL=main.css.map */
