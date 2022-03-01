@@ -1,0 +1,12 @@
+.button {
+    margin-right: 5px;
+    padding: 3px; 
+}
+
+form {
+    display: none;
+}
+
+.active {
+    display: block;
+}
